@@ -1,0 +1,54 @@
+body {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-card {
+  background-color: white;
+  border-radius: 1.5em;
+  width: 25em;
+  margin: 10em;
+  padding: 1em;
+}
+.login-card-header {
+  color: blue;
+  text-align: center;
+  padding: 0.5em;
+}
+.error {
+  color: red;
+}
+#login-inputs {
+  padding: 0.5em;
+}
+.login-button {
+  text-align: center;
+  padding: 0.5em;
+}
+.post-button {
+  margin: 2em;
+}
+.post-data {
+  background-color: white;
+  border-radius: 1.5em;
+  width: 50em;
+  margin: 2em;
+  padding: 0.5em;
+}
+.post {
+  margin: 1.5em;
+  padding: 1em;
+}
+
+.date-info {
+  width: 10em;
+  float: right;
+}
+.create-date,
+.update-date {
+  float: right;
+  width: 5em;
+  font-weight: bold;
+  font-size: 0.9em;
+}
